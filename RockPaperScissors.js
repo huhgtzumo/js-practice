@@ -1,4 +1,4 @@
-erInput= prompt("'Rock', 'Paper', or 'Scissors.?");
+var Input= prompt("'Rock', 'Paper', or 'Scissors.?");
 var computer = Math.ceil(Math.random()*3)
 
 if (computer===1){var choose = "Scissors";}
