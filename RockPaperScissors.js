@@ -1,4 +1,4 @@
-var Input= prompt("'Rock', 'Paper', or 'Scissors.?");
+var userInput= prompt("'Rock', 'Paper', or 'Scissors.?");
 var computer = Math.ceil(Math.random()*3)
 
 if (computer===1){var choose = "Scissors";}
@@ -39,6 +39,7 @@ switch(computer){
     console.log("computer choose3");break;}
     break; 
                }
+
 
 
 console.log(computer );
